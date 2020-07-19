@@ -180,3 +180,33 @@ adb shell touch /storage/sdcard0/Android/data/.um
 # 广告联盟用户id
 adb shell rm -rf /storage/sdcard0/Android/obj/
 adb shell touch /storage/sdcard0/Android/obj
+# 阿里系
+adb shell rm -rf /storage/sdcard0/.com.taobao.dp
+adb shell rm -rf /storage/sdcard0/.DataStorage
+adb shell rm -rf /storage/sdcard0/.SystemConfig
+adb shell rm -rf /storage/sdcard0/.UTSystemConfig
+adb shell rm -rf /storage/sdcard0/alipay
+adb shell rm -rf /storage/sdcard0/com.eg.android.AlipayGphone
+adb shell touch /storage/sdcard0/.com.taobao.dp
+adb shell touch /storage/sdcard0/.DataStorage
+adb shell touch /storage/sdcard0/.SystemConfig
+adb shell touch /storage/sdcard0/.UTSystemConfig
+adb shell touch /storage/sdcard0/alipay
+adb shell touch /storage/sdcard0/com.eg.android.AlipayGphone
+
+
+# adb shell rm -rf /storage/sdcard0/.com.taobao.dp /storage/sdcard0/.DataStorage /storage/sdcard0/.SystemConfig /storage/sdcard0/.UTSystemConfig /storage/sdcard0/alipay /storage/sdcard0/com.eg.android.AlipayGphone
+# adb shell touch /storage/sdcard0/.com.taobao.dp /storage/sdcard0/.DataStorage /storage/sdcard0/.SystemConfig /storage/sdcard0/.UTSystemConfig /storage/sdcard0/alipay /storage/sdcard0/com.eg.android.AlipayGphone
+
+
+
+
+
+
+
+
+
+
+
+
+
