@@ -1,5 +1,7 @@
 #! /bin/bash
 # Delete common cache files and organize regeneration
+# 我的手机不是垃圾箱,不需要你们好心帮我缓存垃圾,更可耻的是腾讯居然把IOS的文件缓存到我的android手机上
+
 # QQ中内置的空间缓存
 adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/
 adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone
@@ -200,6 +202,221 @@ adb shell touch /storage/sdcard0/com.eg.android.AlipayGphone
 
 
 
+adb shell rm -rf /storage/sdcard0/Android/data/com.ximalaya.ting.android/files/web_static_res
+adb shell touch /storage/sdcard0/Android/data/com.ximalaya.ting.android/files/web_static_res
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.lionstudios.mrbullet/cache/UnityAdsCache
+adb shell touch /storage/sdcard0/Android/data/com.lionstudios.mrbullet/cache/UnityAdsCache
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.lionstudios.mrbullet/files/res/.mintegral700
+adb shell touch /storage/sdcard0/Android/data/com.lionstudios.mrbullet/files/res/.mintegral700
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.vaspoke
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.vaspoke
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/files/QWallet/.preloaduni
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/files/QWallet/.preloaduni
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.microsoft.microsoftsolitairecollection/files/vungle_cache
+adb shell touch /storage/sdcard0/Android/data/com.microsoft.microsoftsolitairecollection/files/vungle_cache
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/head_drop_operaion
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/head_drop_operaion
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/zip_cache
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/zip_cache
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.vipicon
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.vipicon
+
+
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.apollo
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.apollo
+
+adb shell rm -rf /storage/sdcard0/.ColombiaMedia
+
+adb shell rm -rf /storage/sdcard0/.DS_Store
+adb shell touch /storage/sdcard0/.DS_Store
+
+adb shell rm -rf /storage/sdcard0/.DataStorage
+
+adb shell rm -rf /storage/sdcard0/.UTSystemConfig
+
+adb shell rm -rf /storage/sdcard0/.UTSystemConfig
+
+adb shell rm -rf /storage/sdcard0/.SystemConfig
+
+adb shell rm -rf /storage/sdcard0/.gs_file
+adb shell touch /storage/sdcard0/.gs_file
+
+adb shell rm -rf /storage/sdcard0/.gs_fs0
+adb shell touch /storage/sdcard0/.gs_fs0
+
+adb shell rm -rf /storage/sdcard0/.gs_fs3
+adb shell touch /storage/sdcard0/.gs_fs3
+
+adb shell rm -rf /storage/sdcard0/.gs_fs6
+adb shell rm -rf /storage/sdcard0/.gs_fs6
+
+adb shell rm -rf /storage/sdcard0/tencent/MobileQQ/doodle_template
+adb shell touch /storage/sdcard0/tencent/MobileQQ/doodle_template
+
+adb shell rm -rf /storage/sdcard0/tencent/MobileQQ/babyQIconRes
+adb shell touch /storage/sdcard0/tencent/MobileQQ/babyQIconRes
+
+# adb shell rm -rf /storage/sdcard0/Android/data/com.gamersky/cache/download/templates
+# adb shell touch /storage/sdcard0/Android/data/com.gamersky/cache/download/templates
+
+adb shell rm -rf qqmusiclocalplayer
+adb shell touch qqmusiclocalplayer
+
+adb shell rm -rf qqstory
+adb shell touch qqstory
+
+adb shell rm -rf .turingdebug
+adb shell touch .turingdebug
+
+#adb shell rm -rf /storage/sdcard0/MideaHome/wanConfig/images
+#adb shell touch /storage/sdcard0/MideaHome/wanConfig/images
+
+#adb shell rm -rf /storage/sdcard0/MideaHome/common/css/images
+#adb shell touch /storage/sdcard0/MideaHome/common/css/images
+
+#adb shell rm -rf /storage/sdcard0/MideaHome/common/images
+#adb shell touch /storage/sdcard0/MideaHome/common/images
+
+#adb shell rm -rf /storage/sdcard0/MideaHome/T0xAC/assets/img
+#adb shell touch /storage/sdcard0/MideaHome/T0xAC/assets/img
+
+#adb shell rm -rf /storage/sdcard0/MideaHome/T0xAC/img
+#adb shell touch /storage/sdcard0/MideaHome/T0xAC/img
+
+#adb shell rm -rf /storage/sdcard0/MideaHome/T0xAC/app/ac/common/cleaning/img
+#adb shell touch /storage/sdcard0/MideaHome/T0xAC/app/ac/common/cleaning/img
+
+# adb shell rm -rf /storage/sdcard0/ReadEra/Covers
+# adb shell touch /storage/sdcard0/ReadEra/Covers
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.netease.karaoke/files/beauty/mask
+adb shell touch /storage/sdcard0/Android/data/com.netease.karaoke/files/beauty/mask
+# 美的简直把整个家的数据都缓存到我的手机上了,每个子文件夹屏蔽工作量太大,你不仁我不义,你什么都别想存
+adb shell rm -rf /storage/sdcard0/MideaHome
+adb shell touch /storage/sdcard0/MideaHome
+
+adb shell rm -rf /storage/sdcard0/iReader/cover
+adb shell touch /storage/sdcard0/iReader/cover
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.eg.android.AlipayGphone/files/sdcard/alipay/com.eg.android.AlipayGphone/eggconfig
+adb shell touch /storage/sdcard0/Android/data/com.eg.android.AlipayGphone/files/sdcard/alipay/com.eg.android.AlipayGphone/eggconfig
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mm/files/tencentmapsdk/com.tencent.mm/data/v3/render/events/icons
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mm/files/tencentmapsdk/com.tencent.mm/data/v3/render/events/icons
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.netease.karaoke/files/beauty/beauty
+adb shell touch /storage/sdcard0/Android/data/com.netease.karaoke/files/beauty/beauty
+
+# adb shell rm -rf
+# adb shell touch 
+
+# adb shell rm -rf
+# adb shell touch 
+# adb shell rm -rf
+# adb shell touch 
+
+# adb shell rm -rf
+# adb shell touch 
+
+# adb shell rm -rf
+# adb shell touch 
+
+# adb shell rm -rf
+# adb shell touch 
+
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.iwaredesigns.prosnooker2012/cache/UnityAdsCache
+adb shell touch /storage/sdcard0/Android/data/com.iwaredesigns.prosnooker2012/cache/UnityAdsCache
+
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.gift
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.gift
+
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mm/MicroMsg/vusericon
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mm/MicroMsg/vusericon
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.apollo
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.apollo
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/zip_cache
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/zip_cache
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.font_info
+
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.font_info
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.apollo
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.apollo
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.huawei.fans/files/lotteryBg
+adb shell touch /storage/sdcard0/Android/data/com.huawei.fans/files/lotteryBg
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/pddata
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/pddata
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/rapid_comment
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/rapid_comment
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/plus_operation
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/plus_operation
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/head_drop_operaion
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/head_drop_operaion
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.taobao.taobao/cache
+adb shell touch /storage/sdcard0/Android/data/com.taobao.taobao/cache
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.pendant
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.pendant
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.troop
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.troop
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.profilecard
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.profilecard
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/pddata
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/pddata
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/newpoke
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/newpoke
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/poke
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/poke
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/surprise
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/surprise
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/pttPanelAnimations
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/pttPanelAnimations
+
+#adb shell rm -rf /storage/sdcard0/tencent/MobileQQ/babyQIconRes
+#adb shell touch /storage/sdcard0/tencent/MobileQQ/babyQIconRes
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/dov_doodle_template
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/dov_doodle_template
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/Scribble
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/Scribble
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/DoutuRes
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/DoutuRes
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/pe
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/pe
+
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.vipicon
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.vipicon
 
 
 
