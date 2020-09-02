@@ -1,4 +1,6 @@
 #! /bin/bash
 
-adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mm/cache
-adb shell touch /storage/sdcard0/Android/data/com.tencent.mm/cache
+
+# 百度临时文件
+adb shell rm -rf 
+adb shell touch 

@@ -17,6 +17,15 @@
 
 # adb shell rm -rf /storage/sdcard0/
 # adb shell touch /storage/sdcard0/
+# 百度临时文件
+adb shell rm -rf /storage/sdcard0/baidu/tempdata
+adb shell touch /storage/sdcard0/baidu/tempdata
+# 华为文件管理器日志文件
+adb shell rm -rf /storage/sdcard0/Android/data/com.huawei.hidisk/files/Log
+adb shell touch /storage/sdcard0/Android/data/com.huawei.hidisk/files/Log
+# QQ空间视频开头缓存
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/video_cache
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/video_cache
 
 adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mm/cache
 adb shell touch /storage/sdcard0/Android/data/com.tencent.mm/cache
