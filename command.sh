@@ -5,6 +5,30 @@
 # QQ中内置的空间缓存
 #adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone
 #adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone
+# 神枪手强尼广告
+adb shell rm -rf /storage/sdcard0/Android/data/com.time.trigger/files
+adb shell touch /storage/sdcard0/Android/data/com.time.trigger/files
+# 神枪手强尼广告
+adb shell rm -rf /storage/sdcard0/Android/data/com.time.trigger/cache/UnityAdsCache
+adb shell touch /storage/sdcard0/Android/data/com.time.trigger/cache/UnityAdsCache
+# 微信临时文件
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mm/MicroMsg/.tmp
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mm/MicroMsg/.tmp
+# 肯德基缓存的广告
+adb shell rm -rf /storage/sdcard0/Android/data/com.yek.android.kfc.activitys/files/downloads
+adb shell touch /storage/sdcard0/Android/data/com.yek.android.kfc.activitys/files/downloads
+# 微信图标缓存
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mm/cache
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mm/cache
+# 3D台球
+adb shell rm -rf /storage/sdcard0/Android/data/com.xs.pooltd/cache/UnityAdsCache
+adb shell touch /storage/sdcard0/Android/data/com.xs.pooltd/cache/UnityAdsCache
+# 小蚁摄像机广告缓存
+adb shell rm -rf /storage/sdcard0/Android/data/com.ants360.yicamera/cache
+adb shell touch /storage/sdcard0/Android/data/com.ants360.yicamera/cache
+# 支付宝表情包
+adb shell rm -rf /storage/sdcard0/Android/data/com.eg.android.AlipayGphone/files/sdcard/alipay/com.eg.android.AlipayGphone
+adb shell touch /storage/sdcard0/Android/data/com.eg.android.AlipayGphone/files/sdcard/alipay/com.eg.android.AlipayGphone
 # line广告
 adb shell rm -rf /storage/sdcard0/Android/data/jp.naver.line.android/channel/nativebar/linepoll
 adb shell touch /storage/sdcard0/Android/data/jp.naver.line.android/channel/nativebar/linepoll
@@ -199,15 +223,15 @@ adb shell rm -rf /storage/sdcard0/.com.taobao.dp
 adb shell rm -rf /storage/sdcard0/.DataStorage
 adb shell rm -rf /storage/sdcard0/.SystemConfig
 adb shell rm -rf /storage/sdcard0/.UTSystemConfig
-adb shell rm -rf /storage/sdcard0/alipay
-adb shell rm -rf /storage/sdcard0/com.eg.android.AlipayGphone
+adb shell rm -rf /storage/sdcard0/
 adb shell touch /storage/sdcard0/.com.taobao.dp
 adb shell touch /storage/sdcard0/.DataStorage
 adb shell touch /storage/sdcard0/.SystemConfig
 adb shell touch /storage/sdcard0/.UTSystemConfig
 adb shell touch /storage/sdcard0/alipay
-adb shell touch /storage/sdcard0/com.eg.android.AlipayGphone
-
+# 美团
+adb shell rm -rf /storage/sdcard0/Android/data/com.sankuai.meituan/cache/startup
+adb shell touch /storage/sdcard0/Android/data/com.sankuai.meituan/cache/startup
 
 # adb shell rm -rf /storage/sdcard0/.com.taobao.dp /storage/sdcard0/.DataStorage /storage/sdcard0/.SystemConfig /storage/sdcard0/.UTSystemConfig /storage/sdcard0/alipay /storage/sdcard0/com.eg.android.AlipayGphone
 # adb shell touch /storage/sdcard0/.com.taobao.dp /storage/sdcard0/.DataStorage /storage/sdcard0/.SystemConfig /storage/sdcard0/.UTSystemConfig /storage/sdcard0/alipay /storage/sdcard0/com.eg.android.AlipayGphone
