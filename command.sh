@@ -223,7 +223,7 @@ adb shell rm -rf /storage/sdcard0/.com.taobao.dp
 adb shell rm -rf /storage/sdcard0/.DataStorage
 adb shell rm -rf /storage/sdcard0/.SystemConfig
 adb shell rm -rf /storage/sdcard0/.UTSystemConfig
-adb shell rm -rf /storage/sdcard0/
+
 adb shell touch /storage/sdcard0/.com.taobao.dp
 adb shell touch /storage/sdcard0/.DataStorage
 adb shell touch /storage/sdcard0/.SystemConfig
@@ -481,13 +481,3 @@ adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/Mobil
 
 adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.vipicon
 adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.vipicon
-
-
-
-
-
-
-
-
-
-
