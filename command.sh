@@ -5,6 +5,10 @@
 # QQ中内置的空间缓存
 #adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone
 #adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone
+
+# TBS缓存
+adb shell rm -rf /storage/sdcard0/.tbs
+adb shell touch /storage/sdcard0/.tbs
 # 神枪手强尼广告
 adb shell rm -rf /storage/sdcard0/Android/data/com.time.trigger/files
 adb shell touch /storage/sdcard0/Android/data/com.time.trigger/files
