@@ -18,52 +18,71 @@
 # adb shell rm -rf /storage/sdcard0/
 # adb shell touch /storage/sdcard0/
 
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mm/cache
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mm/cache
 
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
+adb shell rm -rf /storage/sdcard0/tencent/MobileQQ/doodle_template
+adb shell touch /storage/sdcard0/tencent/MobileQQ/doodle_template
 
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/surprise
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/surprise
 
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/zip_cache
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/zip_cache
 
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/files/QWallet/.preloaduni
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/files/QWallet/.preloaduni
 
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/pddata
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/pddata
 
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.apollo
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.apollo
 
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
+adb shell rm -rf /storage/sdcard0/umeng_cache
+adb shell touch /storage/sdcard0/umeng_cache
 
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
+adb shell rm -rf /storage/sdcard0/qsvf
+adb shell touch /storage/sdcard0/qsvf
 
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
+adb shell rm -rf /storage/sdcard0/msc
+adb shell touch /storage/sdcard0/msc
 
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
+adb shell rm -rf /storage/sdcard0/360Log
+adb shell touch /storage/sdcard0/360Log
 
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
+adb shell rm -rf /storage/sdcard0/360
+adb shell touch /storage/sdcard0/360
 
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
+adb shell rm -rf /storage/sdcard0/.wps_preloaded_2.txt
+adb shell touch /storage/sdcard0/.wps_preloaded_2.txt
 
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
+adb shell rm -rf /storage/sdcard0/.vivo
+adb shell touch /storage/sdcard0/.vivo
 
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
+adb shell rm -rf /storage/sdcard0/.turingdebug
+adb shell touch /storage/sdcard0/.turingdebug
+
+adb shell rm -rf /storage/sdcard0/.transportext
+adb shell touch /storage/sdcard0/.transportext
+
+adb shell rm -rf /storage/sdcard0/.profig.os
+adb shell touch /storage/sdcard0/.profig.os
+
+adb shell rm -rf /storage/sdcard0/.photoShare
+adb shell touch /storage/sdcard0/.photoShare
+
+adb shell rm -rf /storage/sdcard0/.gs_fs3
+adb shell touch /storage/sdcard0/.gs_fs3
+
+adb shell rm -rf /storage/sdcard0/.gs_fs0
+adb shell touch /storage/sdcard0/.gs_fs0
+
+adb shell rm -rf /storage/sdcard0/.gs_file
+adb shell touch /storage/sdcard0/.gs_file
+
+adb shell rm -rf /storage/sdcard0/.DS_Store
+adb shell touch /storage/sdcard0/.DS_Store
 # QQ日志
 adb shell rm -rf /storage/sdcard0/tencent/msflogs
 adb shell touch /storage/sdcard0/tencent/msflogs
@@ -270,8 +289,8 @@ adb shell touch /storage/sdcard0/Android/data/cn.wps.moffice_eng/.cache
 # 腾讯游戏日志
 
 # 百度钱包临时文件
-adb shell rm -rf /storage/sdcard0/backups/system
-adb shell touch /storage/sdcard0/backups/system
+# adb shell rm -rf /storage/sdcard0/backups/system
+# adb shell touch /storage/sdcard0/backups/system
 # ES文件管理器广告缓存
 adb shell rm -rf /storage/sdcard0/.estrongs/.image
 adb shell touch /storage/sdcard0/.estrongs/.image
@@ -323,7 +342,6 @@ adb shell touch /storage/sdcard0/.com.taobao.dp
 adb shell touch /storage/sdcard0/.DataStorage
 adb shell touch /storage/sdcard0/.SystemConfig
 adb shell touch /storage/sdcard0/.UTSystemConfig
-adb shell touch /storage/sdcard0/alipay
 # 美团
 adb shell rm -rf /storage/sdcard0/Android/data/com.sankuai.meituan/cache/startup
 adb shell touch /storage/sdcard0/Android/data/com.sankuai.meituan/cache/startup
