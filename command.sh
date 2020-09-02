@@ -48,8 +48,8 @@ adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/Mobil
 adb shell rm -rf /storage/sdcard0/Android/data/com.zhihu.android/files/Pictures
 adb shell touch /storage/sdcard0/Android/data/com.zhihu.android/files/Pictures
 # 芒果TV红包图片缓存
-adb shell rm -rf /storage/sdcard0/Android/data/com.hunantv.imgo.activity.inter/files/redpacket_skin
-adb shell touch /storage/sdcard0/Android/data/com.hunantv.imgo.activity.inter/files/redpacket_skin
+# adb shell rm -rf /storage/sdcard0/Android/data/com.hunantv.imgo.activity.inter/files/redpacket_skin
+# adb shell touch /storage/sdcard0/Android/data/com.hunantv.imgo.activity.inter/files/redpacket_skin
 # 美团外卖缓存
 adb shell rm -rf /storage/sdcard0/Android/data/com.sankuai.meituan/files/cips/common/smart-download/assets/unzip
 adb shell touch /storage/sdcard0/Android/data/com.sankuai.meituan/files/cips/common/smart-download/assets/unzip
@@ -81,17 +81,17 @@ adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/Mobil
 adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/bless
 adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/bless
 # 微信日志文件
-adb shell rm -rf /storage/sdcard0/tencent/MicroMsg/xlog
-adb shell touch /storage/sdcard0/tencent/MicroMsg/xlog
+# adb shell rm -rf /storage/sdcard0/tencent/MicroMsg/xlog
+# adb shell touch /storage/sdcard0/tencent/MicroMsg/xlog
 # 腾讯TBS垃圾文件
-adb shell rm -rf /storage/sdcard0/tencent/tbs
-adb shell touch /storage/sdcard0/tencent/tbs
+# adb shell rm -rf /storage/sdcard0/tencent/tbs
+# adb shell touch /storage/sdcard0/tencent/tbs
 # 淘宝日志文件
 adb shell rm -rf /storage/sdcard0/Android/data/com.taobao.taobao/files/logs
 adb shell touch /storage/sdcard0/Android/data/com.taobao.taobao/files/logs
 # QQ图片缓存
-adb shell rm -rf /storage/sdcard0/tencent/blob
-adb shell touch /storage/sdcard0/tencent/blob
+# adb shell rm -rf /storage/sdcard0/tencent/blob
+# adb shell touch /storage/sdcard0/tencent/blob
 # QQ音乐内置礼物系统
 adb shell rm -rf /storage/sdcard0/qqmusic/gift_anim_zip
 adb shell touch /storage/sdcard0/qqmusic/gift_anim_zip
@@ -122,8 +122,8 @@ adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/Mobil
 adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/DoutuRes
 adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/DoutuRes
 # 微信更新缓存
-adb shell rm -rf /storage/sdcard0/tencent/MicroMsg/CheckResUpdate
-adb shell touch /storage/sdcard0/tencent/MicroMsg/CheckResUpdate
+# adb shell rm -rf /storage/sdcard0/tencent/MicroMsg/CheckResUpdate
+# adb shell touch /storage/sdcard0/tencent/MicroMsg/CheckResUpdate
 # WPS缓存
 adb shell rm -rf /storage/sdcard0/Android/data/cn.wps.moffice_eng/.cache
 adb shell touch /storage/sdcard0/Android/data/cn.wps.moffice_eng/.cache
@@ -134,11 +134,11 @@ adb shell touch /storage/sdcard0/Android/data/cn.wps.moffice_eng/.cache
 adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mm/files/tbslog
 adb shell touch /storage/sdcard0/Android/data/com.tencent.mm/files/tbslog
 # QQ垃圾文件
-adb shell rm -rf /storage/sdcard0/tencent/wns
-adb shell touch /storage/sdcard0/tencent/wns
+# adb shell rm -rf /storage/sdcard0/tencent/wns
+# adb shell touch /storage/sdcard0/tencent/wns
 # QQ个性签名模版缓存
-adb shell rm -rf /storage/sdcard0/tencent/MobileQQ/.signatureTemplate
-adb shell touch /storage/sdcard0/tencent/MobileQQ/.signatureTemplate
+# adb shell rm -rf /storage/sdcard0/tencent/MobileQQ/.signatureTemplate
+# adb shell touch /storage/sdcard0/tencent/MobileQQ/.signatureTemplate
 # 广告联盟
 adb shell rm -rf /storage/sdcard0/mfcache
 adb shell touch /storage/sdcard0/mfcache
@@ -155,8 +155,8 @@ adb shell touch /storage/sdcard0/.BD_SAPI_CACHE
 adb shell rm -rf /storage/sdcard0/.chartboost
 adb shell touch /storage/sdcard0/.chartboost
 # QQ商家推广
-adb shell rm -rf /storage/sdcard0/tencent/QQ_business
-adb shell touch /storage/sdcard0/tencent/QQ_business
+# adb shell rm -rf /storage/sdcard0/tencent/QQ_business
+# adb shell touch /storage/sdcard0/tencent/QQ_business
 # 小米路由器启动页广告
 adb shell rm -rf /storage/sdcard0/Android/data/com.xiaomi.router/files/images
 adb shell touch /storage/sdcard0/Android/data/com.xiaomi.router/files/images
@@ -167,8 +167,8 @@ adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/files/tbslog
 adb shell rm -rf /storage/sdcard0/Android/data/pushSdk
 adb shell touch /storage/sdcard0/Android/data/pushSdk
 # QQ垃圾文件
-adb shell rm -rf /storage/sdcard0/tencent/wtlogin
-adb shell touch /storage/sdcard0/tencent/wtlogin
+# adb shell rm -rf /storage/sdcard0/tencent/wtlogin
+# adb shell touch /storage/sdcard0/tencent/wtlogin
 # WPS日志文件
 adb shell rm -rf /storage/sdcard0/Android/data/cn.wps.moffice_eng/.cache
 adb shell touch /storage/sdcard0/Android/data/cn.wps.moffice_eng/.cache
@@ -181,8 +181,8 @@ adb shell touch /storage/sdcard0/Android/data/cn.wps.moffice_eng/.cache
 adb shell rm -rf /storage/sdcard0/.estrongs/.image
 adb shell touch /storage/sdcard0/.estrongs/.image
 # QQ垃圾文件
-adb shell rm -rf /storage/sdcard0/tencent/MobileQQ/log
-adb shell touch /storage/sdcard0/tencent/MobileQQ/log
+# adb shell rm -rf /storage/sdcard0/tencent/MobileQQ/log
+# adb shell touch /storage/sdcard0/tencent/MobileQQ/log
 # 腾讯地图
 adb shell rm -rf /storage/sdcard0/Qmap
 adb shell touch /storage/sdcard0/Qmap
@@ -204,8 +204,8 @@ adb shell touch /storage/sdcard0/360
 adb shell rm -rf /storage/sdcard0/360Log
 adb shell touch /storage/sdcard0/360Log
 # QQ垃圾文件
-adb shell rm -rf /storage/sdcard0/tencent/beacon
-adb shell touch /storage/sdcard0/tencent/beacon
+# adb shell rm -rf /storage/sdcard0/tencent/beacon
+# adb shell touch /storage/sdcard0/tencent/beacon
 # 投放广告设备标识
 adb shell rm -rf /storage/sdcard0/at
 adb shell touch /storage/sdcard0/at
