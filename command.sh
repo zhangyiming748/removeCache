@@ -17,6 +17,12 @@
 
 # adb shell rm -rf /storage/sdcard0/
 # adb shell touch /storage/sdcard0/
+# 斯诺克游戏缓存广告
+adb shell rm -rf /storage/sdcard0/Android/data/com.iwaredesigns.prosnooker2012/cache/UnityAdsCache
+adb shell touch /storage/sdcard0/Android/data/com.iwaredesigns.prosnooker2012/cache/UnityAdsCache
+# 拼图游戏缓存广告
+adb shell rm -rf /storage/sdcard0/Android/data/com.easybrain.jigsaw.puzzles/cache/UnityAdsCache
+adb shell touch /storage/sdcard0/Android/data/com.easybrain.jigsaw.puzzles/cache/UnityAdsCache
 # 百度临时文件
 adb shell rm -rf /storage/sdcard0/baidu/tempdata
 adb shell touch /storage/sdcard0/baidu/tempdata
