@@ -11,12 +11,50 @@
 
 # adb shell rm -rf /storage/sdcard0/
 # adb shell touch /storage/sdcard0/
-
 # adb shell rm -rf /storage/sdcard0/
 # adb shell touch /storage/sdcard0/
 
 # adb shell rm -rf /storage/sdcard0/
 # adb shell touch /storage/sdcard0/
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+# 可疑文件
+# adb shell rm -rf /storage/sdcard0/bdb53ca9-e86b-4e62-95ac-63005069f317
+# adb shell touch /storage/sdcard0/bdb53ca9-e86b-4e62-95ac-63005069f317
+# 百度网盘
+adb shell rm -rf /storage/sdcard0/BaiduNetdisk
+adb shell touch /storage/sdcard0/BaiduNetdisk
+# 系统地图SDK
+adb shell rm -rf /storage/sdcard0/amap
+adb shell touch /storage/sdcard0/amap
+# FDM
+adb shell rm -rf /storage/sdcard0/.freedownloadmanager
+adb shell touch /storage/sdcard0/.freedownloadmanager
+# 未知
+adb shell rm -rf /storage/sdcard0/.omgid
+adb shell touch /storage/sdcard0/.omgid
+# 未知
+adb shell rm -rf /storage/sdcard0/.zp
+adb shell touch /storage/sdcard0/.zp
+# ES文件管理器
+adb shell rm -rf /storage/sdcard0/.estrongs
+adb shell touch /storage/sdcard0/.estrongs
+# 疑似Spotify缓存文件夹
+adb shell rm -rf /storage/sdcard0/.ColombiaMedia
+adb shell touch /storage/sdcard0/.ColombiaMedia
 # 斯诺克游戏缓存广告
 adb shell rm -rf /storage/sdcard0/Android/data/com.iwaredesigns.prosnooker2012/cache/UnityAdsCache
 adb shell touch /storage/sdcard0/Android/data/com.iwaredesigns.prosnooker2012/cache/UnityAdsCache
@@ -134,6 +172,8 @@ adb shell touch /storage/sdcard0/QQBrowser
 # TBS缓存
 adb shell rm -rf /storage/sdcard0/.tbs
 adb shell touch /storage/sdcard0/.tbs
+adb shell rm -rf /storage/sdcard0/tbs
+adb shell touch /storage/sdcard0/tbs
 # 神枪手强尼广告
 adb shell rm -rf /storage/sdcard0/Android/data/com.time.trigger/files
 adb shell touch /storage/sdcard0/Android/data/com.time.trigger/files
@@ -307,8 +347,8 @@ adb shell touch /storage/sdcard0/Android/data/cn.wps.moffice_eng/.cache
 # adb shell rm -rf /storage/sdcard0/backups/system
 # adb shell touch /storage/sdcard0/backups/system
 # ES文件管理器广告缓存
-adb shell rm -rf /storage/sdcard0/.estrongs/.image
-adb shell touch /storage/sdcard0/.estrongs/.image
+# adb shell rm -rf /storage/sdcard0/.estrongs/.image
+# adb shell touch /storage/sdcard0/.estrongs/.image
 # QQ垃圾文件
 adb shell rm -rf /storage/sdcard0/tencent/MobileQQ/log
 adb shell touch /storage/sdcard0/tencent/MobileQQ/log
