@@ -23,14 +23,15 @@
 # adb shell touch /storage/sdcard0/
 # adb shell rm -rf /storage/sdcard0/
 # adb shell touch /storage/sdcard0/
-
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
-
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
+# QQ字体示例
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.font_info
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.font_info
+# QQ空间斗图
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/rapid_comment
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/rapid_comment
+# QQ空间头像挂件
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/head_drop_operaion
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone/head_drop_operaion
 # 可疑文件
 # adb shell rm -rf /storage/sdcard0/bdb53ca9-e86b-4e62-95ac-63005069f317
 # adb shell touch /storage/sdcard0/bdb53ca9-e86b-4e62-95ac-63005069f317
