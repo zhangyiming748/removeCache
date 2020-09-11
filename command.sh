@@ -3,8 +3,14 @@
 # 我的手机不是垃圾箱,不需要你们好心帮我缓存垃圾,更可耻的是腾讯居然把IOS的文件缓存到我的android手机上
 
 # QQ中内置的空间缓存
-#adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone
-#adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
 
 # adb shell rm -rf /storage/sdcard0/
 # adb shell touch /storage/sdcard0/
@@ -23,6 +29,52 @@
 # adb shell touch /storage/sdcard0/
 # adb shell rm -rf /storage/sdcard0/
 # adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+# 腾讯垃圾
+adb shell rm -rf /storage/sdcard0/tencent/mta
+adb shell touch /storage/sdcard0/tencent/mta
+# 一加社区垃圾
+adb shell rm -rf /storage/sdcard0/Mob
+adb shell touch /storage/sdcard0/Mob
+# 推广联盟下载的垃圾文件
+adb shell rm -rf /storage/sdcard0/GDTDOWNLOAD
+adb shell touch /storage/sdcard0/GDTDOWNLOAD
+# 流氓软件垃圾文件
+adb shell rm -rf /storage/sdcard0/system
+adb shell touch /storage/sdcard0/system
+# 标记设备广告追踪
+adb shell rm -rf /storage/sdcard0/.tcookieid
+adb shell touch /storage/sdcard0/.tcookieid
+# 山东移动掌上营业厅垃圾
+adb shell rm -rf /storage/sdcard0/.AOE
+adb shell touch /storage/sdcard0/.AOE
+# QQ缓存文件
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/files/backup
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/files/backup
+# 小米推送
+adb shell rm -rf /storage/sdcard0/mipush
+adb shell touch /storage/sdcard0/mipush
+# QQ 求订阅
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/qsubscribe
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qsubscribe
+
 # QQ字体示例
 adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.font_info
 adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.font_info
@@ -342,11 +394,12 @@ adb shell touch /storage/sdcard0/tencent/wtlogin
 # WPS日志文件
 adb shell rm -rf /storage/sdcard0/Android/data/cn.wps.moffice_eng/.cache
 adb shell touch /storage/sdcard0/Android/data/cn.wps.moffice_eng/.cache
-# 腾讯游戏日志
-
-# 百度钱包临时文件
-# adb shell rm -rf /storage/sdcard0/backups/system
-# adb shell touch /storage/sdcard0/backups/system
+# 流氓软件垃圾文件
+adb shell rm -rf /storage/sdcard0/libs
+adb shell touch /storage/sdcard0/libs
+# 可疑的备份文件
+adb shell rm -rf /storage/sdcard0/backup
+adb shell touch /storage/sdcard0/backup
 # ES文件管理器广告缓存
 # adb shell rm -rf /storage/sdcard0/.estrongs/.image
 # adb shell touch /storage/sdcard0/.estrongs/.image
