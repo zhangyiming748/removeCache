@@ -29,14 +29,15 @@ adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone
 # adb shell touch /storage/sdcard0/
 # adb shell rm -rf /storage/sdcard0/
 # adb shell touch /storage/sdcard0/
-
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
-
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
+# 掌阅
+# adb shell rm -rf /storage/sdcard0/iReader
+# adb shell touch /storage/sdcard0/iReader
+# 友盟标记
+adb shell rm -rf /storage/sdcard0/Android/obj
+adb shell touch /storage/sdcard0/Android/obj
+# 国内版喜马拉雅静态图片
+adb shell rm -rf /storage/sdcard0/Android/data/com.ximalaya.ting.android/files/web_static_res
+adb shell touch /storage/sdcard0/Android/data/com.ximalaya.ting.android/files/web_static_res
 # QQ挂件
 adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/doodle_template
 adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/doodle_template
