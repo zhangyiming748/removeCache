@@ -37,16 +37,22 @@ adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone
 
 # adb shell rm -rf /storage/sdcard0/
 # adb shell touch /storage/sdcard0/
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
-
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
-
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
+# QQ挂件
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/doodle_template
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/doodle_template
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/dov_doodle_template
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/dov_doodle_template
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/dov_ptv_template_dov
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/dov_ptv_template_dov
+# 微软纸牌广告缓存
+adb shell rm -rf /storage/sdcard0/Android/data/com.microsoft.microsoftsolitairecollection/files/vungle_cache
+adb shell touch /storage/sdcard0/Android/data/com.microsoft.microsoftsolitairecollection/files/vungle_cache
+# QQ空间高清黄钻图标
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/portrait/FHDAvatar
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/portrait/FHDAvatar
+# 百度阅读
+adb shell rm -rf /storage/sdcard0/BaiduYuedu
+adb shell touch /storage/sdcard0/BaiduYuedu
 # 腾讯垃圾
 adb shell rm -rf /storage/sdcard0/tencent/mta
 adb shell touch /storage/sdcard0/tencent/mta
