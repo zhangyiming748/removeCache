@@ -19,16 +19,18 @@ adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone
 # adb shell touch /storage/sdcard0/
 # adb shell rm -rf /storage/sdcard0/
 # adb shell touch /storage/sdcard0/
-
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
-
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
+# apkpure的广告缓存
+adb shell rm -rf /storage/sdcard0/Android/data/com.apkpure.aegon/cache/UnityAdsCache
+adb shell touch /storage/sdcard0/Android/data/com.apkpure.aegon/cache/UnityAdsCache
+# 掌阅广告
+adb shell rm -rf /storage/sdcard0/Android/data/com.chaozh.iReaderFree/files/Download/.zyad
+adb shell touch /storage/sdcard0/Android/data/com.chaozh.iReaderFree/files/Download/.zyad
+# QQ聊天背景
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.profilecard
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.profilecard
+# QQ3D表情
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/pe
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/pe
 # 掌阅
 # adb shell rm -rf /storage/sdcard0/iReader
 # adb shell touch /storage/sdcard0/iReader
