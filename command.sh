@@ -17,8 +17,9 @@ adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone
 
 # adb shell rm -rf /storage/sdcard0/
 # adb shell touch /storage/sdcard0/
-# adb shell rm -rf /storage/sdcard0/
-# adb shell touch /storage/sdcard0/
+# 微信
+adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mm/MicroMsg/vusericon
+adb shell touch /storage/sdcard0/Android/data/com.tencent.mm/MicroMsg/vusericon
 # apkpure的广告缓存
 adb shell rm -rf /storage/sdcard0/Android/data/com.apkpure.aegon/cache/UnityAdsCache
 adb shell touch /storage/sdcard0/Android/data/com.apkpure.aegon/cache/UnityAdsCache
