@@ -1,7 +1,117 @@
 #! /bin/bash
 # Delete common cache files and organize regeneration
 # 我的手机不是垃圾箱,不需要你们好心帮我缓存垃圾,更可耻的是腾讯居然把IOS的文件缓存到我的android手机上
+# <根目录下的可疑文件夹>
+adb shell rm -rf /storage/sdcard0/ANRSnap
+adb shell touch /storage/sdcard0/ANRSnap
 
+adb shell rm -rf /storage/sdcard0/ByteDownload
+adb shell touch /storage/sdcard0/ByteDownload
+
+adb shell rm -rf /storage/sdcard0/EditedOnlinePhotos
+adb shell touch /storage/sdcard0/EditedOnlinePhotos
+
+adb shell rm -rf /storage/sdcard0/Fonts
+adb shell touch /storage/sdcard0/Fonts
+
+
+adb shell rm -rf /storage/sdcard0/Installation
+adb shell touch /storage/sdcard0/Installation
+
+adb shell rm -rf /storage/sdcard0/M_Cloud
+adb shell touch /storage/sdcard0/M_Cloud
+
+
+adb shell rm -rf /storage/sdcard0/PimMsgCache
+adb shell touch /storage/sdcard0/PimMsgCache
+
+adb shell rm -rf /storage/sdcard0/SLK
+adb shell touch /storage/sdcard0/SLK
+
+adb shell rm -rf /storage/sdcard0/Subtitles
+adb shell touch /storage/sdcard0/Subtitles
+
+adb shell rm -rf /storage/sdcard0/TencentMapSDK
+adb shell touch /storage/sdcard0/TencentMapSDK
+
+adb shell rm -rf /storage/sdcard0/Tomato
+adb shell touch /storage/sdcard0/Tomato
+
+adb shell rm -rf /storage/sdcard0/Videoder
+adb shell touch /storage/sdcard0/Videoder
+
+adb shell rm -rf /storage/sdcard0/Vod
+adb shell touch /storage/sdcard0/Vod
+
+adb shell rm -rf /storage/sdcard0/Xiaomi
+adb shell touch /storage/sdcard0/Xiaomi
+
+adb shell rm -rf /storage/sdcard0/aplayerlog
+adb shell touch /storage/sdcard0/aplayerlog
+
+adb shell rm -rf /storage/sdcard0/autonavi
+adb shell touch /storage/sdcard0/autonavi
+
+adb shell rm -rf /storage/sdcard0/baidu
+adb shell touch /storage/sdcard0/baidu
+
+adb shell rm -rf /storage/sdcard0/bdb53ca9-e86b-4e62-95ac-63005069f317
+adb shell touch /storage/sdcard0/bdb53ca9-e86b-4e62-95ac-63005069f317
+
+adb shell rm -rf /storage/sdcard0/com.bilibili.app.in
+adb shell touch /storage/sdcard0/com.bilibili.app.in
+
+adb shell rm -rf /storage/sdcard0/com.huawei.systemmanager_TMF_TMS
+adb shell touch /storage/sdcard0/com.huawei.systemmanager_TMF_TMS
+
+adb shell rm -rf /storage/sdcard0/com.netease.cloudmusic
+adb shell touch /storage/sdcard0/com.netease.cloudmusic
+
+adb shell rm -rf /storage/sdcard0/com.tencent.mtt
+adb shell touch /storage/sdcard0/com.tencent.mtt
+
+adb shell rm -rf /storage/sdcard0/com.tomato.tv
+adb shell touch /storage/sdcard0/com.tomato.tv
+
+adb shell rm -rf /storage/sdcard0/com.vmos.app
+adb shell touch /storage/sdcard0/com.vmos.app
+
+adb shell rm -rf /storage/sdcard0/iReader
+adb shell touch /storage/sdcard0/iReader
+
+adb shell rm -rf /storage/sdcard0/keep
+adb shell touch /storage/sdcard0/keep
+
+adb shell rm -rf /storage/sdcard0/kfcCache
+adb shell touch /storage/sdcard0/kfcCache
+
+adb shell rm -rf /storage/sdcard0/limbo
+adb shell touch /storage/sdcard0/limbo
+
+adb shell rm -rf /storage/sdcard0/net.csdn.csdnplus
+adb shell touch /storage/sdcard0/net.csdn.csdnplus
+
+adb shell rm -rf /storage/sdcard0/netease
+adb shell touch /storage/sdcard0/netease
+
+adb shell rm -rf /storage/sdcard0/ramfs_ext
+adb shell touch /storage/sdcard0/ramfs_ext
+
+adb shell rm -rf /storage/sdcard0/snaptube
+adb shell touch /storage/sdcard0/snaptube
+
+adb shell rm -rf /storage/sdcard0/supercache
+adb shell touch /storage/sdcard0/supercache
+
+adb shell rm -rf /storage/sdcard0/tencent
+adb shell touch /storage/sdcard0/tencent
+
+adb shell rm -rf /storage/sdcard0/tv.danmaku.bili
+adb shell touch /storage/sdcard0/tv.danmaku.bili
+
+adb shell rm -rf /storage/sdcard0/zhihu
+adb shell touch /storage/sdcard0/zhihu
+# </根目录下的可疑文件夹>
 # QQ中内置的空间缓存
 adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone
 adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone
@@ -17,6 +127,179 @@ adb shell touch /storage/sdcard0/Android/data/com.tencent.mobileqq/qzone
 
 # adb shell rm -rf /storage/sdcard0/
 # adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+# adb shell rm -rf /storage/sdcard0/
+# adb shell touch /storage/sdcard0/
+
+adb shell rm -rf /storage/sdcard0/139PeSdk
+adb shell touch /storage/sdcard0/139PeSdk
+
+adb shell rm -rf /storage/sdcard0/.zp
+adb shell touch /storage/sdcard0/.zp
+
+adb shell rm -rf /storage/sdcard0/.vdevdir
+adb shell touch /storage/sdcard0/.vdevdir
+
+adb shell rm -rf /storage/sdcard0/.Uc2UTSystemConfig
+adb shell touch /storage/sdcard0/.Uc2UTSystemConfig
+
+adb shell rm -rf /storage/sdcard0/.Uc2DataStorage
+adb shell touch /storage/sdcard0/.Uc2DataStorage
+
+adb shell rm -rf /storage/sdcard0/.systemz
+adb shell touch /storage/sdcard0/.systemz
+
+adb shell rm -rf /storage/sdcard0/.systeminfoz
+adb shell touch /storage/sdcard0/.systeminfoz
+
+adb shell rm -rf /storage/sdcard0/.systeminfo
+adb shell touch /storage/sdcard0/.systeminfo
+
+adb shell rm -rf /storage/sdcard0/.system
+adb shell touch /storage/sdcard0/.system
+
+adb shell rm -rf /storage/sdcard0/.settingz
+adb shell touch /storage/sdcard0/.settingz
+
+adb shell rm -rf /storage/sdcard0/.setting
+adb shell touch /storage/sdcard0/.setting
+
+adb shell rm -rf /storage/sdcard0/.pns
+adb shell touch /storage/sdcard0/.pns
+
+adb shell rm -rf /storage/sdcard0/.mobilemcloud
+adb shell touch /storage/sdcard0/.mobilemcloud
+
+adb shell rm -rf /storage/sdcard0/.ccc
+adb shell touch /storage/sdcard0/.ccc
+
+adb shell rm -rf /storage/sdcard0/.bbb
+adb shell touch /storage/sdcard0/.bbb
+
+adb shell rm -rf /storage/sdcard0/.aptoide
+adb shell touch /storage/sdcard0/.aptoide
+
+adb shell rm -rf /storage/sdcard0/.ants
+adb shell touch /storage/sdcard0/.ants
+
+adb shell rm -rf /storage/sdcard0/.aaa
+adb shell touch /storage/sdcard0/.aaa
 # 微信
 adb shell rm -rf /storage/sdcard0/Android/data/com.tencent.mm/MicroMsg/vusericon
 adb shell touch /storage/sdcard0/Android/data/com.tencent.mm/MicroMsg/vusericon
